@@ -1,0 +1,59 @@
+🗓️ 90-Day Clean Roadmap
+🔹 Month 1 (Days 1–30) → Strong Frontend
+
+Advanced HTML & CSS
+
+JavaScript (ES6+, async/await)
+
+React (hooks, routing, state management)
+
+API integration
+
+Responsive UI
+
+🎯 Output: Production-style frontend app
+
+
+
+🔹 Month 2 (Days 31–60) → Backend + Database
+
+Node.js deep basics
+
+Express.js structure
+
+MongoDB (schema design)
+
+Authentication (JWT)
+
+Role-based access
+
+Error handling & validation
+
+🎯 Output: Clean backend API
+
+
+
+🔹 Month 3 (Days 61–90) → Full-Stack Mastery
+
+Frontend + backend integration
+
+Advanced features (pagination, search)
+
+Performance basics
+
+Deployment
+
+Testing basics
+
+Interview prep
+
+🎯 Output: 2–3 portfolio-ready projects
+
+
+🧩 Ideal Projects for 3 Months
+
+Authentication System (JWT + roles)
+
+E-commerce / Job Portal / CRM
+
+Your own idea (unique = resume gold)

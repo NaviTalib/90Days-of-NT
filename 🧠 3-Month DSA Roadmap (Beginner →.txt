@@ -1,0 +1,337 @@
+🧠 3-Month DSA Roadmap (Beginner → Interview Ready)
+⏰ Daily time
+
+2–3 hours/day
+
+Split like this:
+
+40 min → concepts
+
+1–1.5 hr → problem solving
+
+10 min → revision
+
+💻 Language
+
+👉 JavaScript (stick to one language)
+
+
+
+🔵 MONTH 1: Strong Foundations (Most Important)
+
+Goal: Build thinking ability + logic
+
+📅 Week 1: Basics + Complexity
+
+Concepts
+
+What is DSA?
+
+Time Complexity (Big-O)
+
+Space Complexity
+
+Input / Output patterns
+
+Recursion basics
+
+Problems
+
+Count digits
+
+Reverse number
+
+Fibonacci (iterative + recursive)
+
+Factorial
+
+Palindrome number
+
+👉 Practice: 10–12 problems
+
+📅 Week 2: Arrays (Core Topic)
+
+Concepts
+
+Array traversal
+
+Prefix sum
+
+Kadane’s Algorithm
+
+Two Pointer technique
+
+Problems
+
+Largest element in array
+
+Second largest element
+
+Reverse array
+
+Move zeroes
+
+Maximum subarray sum
+
+Rotate array
+
+👉 Practice: 15–18 problems
+
+📅 Week 3: Strings
+
+Concepts
+
+String traversal
+
+ASCII values
+
+Two pointer on strings
+
+Frequency count
+
+Problems
+
+Reverse string
+
+Check palindrome
+
+Anagram
+
+First non-repeating character
+
+Longest common prefix
+
+👉 Practice: 12–15 problems
+
+📅 Week 4: Recursion + Sorting
+
+Concepts
+
+Recursion stack
+
+Merge Sort
+
+Quick Sort
+
+Bubble / Selection / Insertion sort
+
+Problems
+
+Sum of digits (recursion)
+
+Reverse array (recursion)
+
+Merge sort implementation
+
+Quick sort implementation
+
+👉 Practice: 12–15 problems
+
+
+
+🟢 MONTH 2: Core Data Structures + Patterns
+
+Goal: Learn problem-solving patterns
+
+📅 Week 5: Searching + Binary Search
+
+Concepts
+
+Linear Search
+
+Binary Search
+
+Lower/Upper bound
+
+Problems
+
+Binary search
+
+First & last occurrence
+
+Search in rotated array
+
+Peak element
+
+👉 Practice: 12–15 problems
+
+📅 Week 6: Linked List
+
+Concepts
+
+Singly Linked List
+
+Fast & slow pointer
+
+Reversal techniques
+
+Problems
+
+Reverse linked list
+
+Detect cycle
+
+Middle of linked list
+
+Merge two sorted lists
+
+👉 Practice: 10–12 problems
+
+📅 Week 7: Stack & Queue
+
+Concepts
+
+Stack implementation
+
+Queue implementation
+
+Monotonic stack
+
+Problems
+
+Valid parentheses
+
+Next greater element
+
+Stock span
+
+Implement queue using stack
+
+👉 Practice: 12–15 problems
+
+📅 Week 8: Hashing
+
+Concepts
+
+HashMap
+
+Frequency count
+
+Set usage
+
+Problems
+
+Two Sum
+
+Subarray with sum K
+
+Longest consecutive sequence
+
+Majority element
+
+👉 Practice: 12–15 problems
+
+
+
+
+🔴 MONTH 3: Advanced Topics + Interview Prep
+
+Goal: Handle medium-level interview questions
+
+📅 Week 9: Trees
+
+Concepts
+
+Binary Tree
+
+DFS & BFS
+
+Tree traversal
+
+Problems
+
+Inorder / Preorder / Postorder
+
+Height of tree
+
+Diameter of tree
+
+Level order traversal
+
+👉 Practice: 10–12 problems
+
+📅 Week 10: Binary Search Tree
+
+Concepts
+
+BST properties
+
+Insert / Delete / Search
+
+Problems
+
+Validate BST
+
+LCA in BST
+
+Kth smallest element
+
+👉 Practice: 8–10 problems
+
+📅 Week 11: Heap + Priority Queue
+
+Concepts
+
+Min Heap
+
+Max Heap
+
+Problems
+
+K largest elements
+
+Top K frequent elements
+
+Heap sort
+
+👉 Practice: 8–10 problems
+
+📅 Week 12: Dynamic Programming + Revision
+
+Concepts
+
+DP basics
+
+Memoization
+
+Tabulation
+
+Problems
+
+Fibonacci (DP)
+
+Climbing stairs
+
+House robber
+
+Coin change (basic)
+
+👉 Practice: 8–10 problems
+
+📌 Weekly Routine (Very Important)
+
+Mon–Fri → Learn + solve
+
+Saturday → Revise + re-solve weak problems
+
+Sunday → Mock interview / mixed questions
+
+📍 Platforms to Practice
+
+LeetCode
+
+CodeStudio (Coding Ninjas)
+
+GeeksforGeeks
+
+👉 Target: 150–180 problems in 3 months
+
+🔥 Golden Rules (Follow these)
+
+Don’t memorize solutions
+
+Solve with pen & paper first
+
+Stuck for 30 min? → see hint, not solution
+
+Re-solve same question after 7 days
