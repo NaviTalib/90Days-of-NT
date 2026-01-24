@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.video-grid{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.video-card{
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.featured{
+    grid-column: span 2;
+}
+
+@media (nax-width: 500px){
+    .featured{
+        grid-column: span 1;
+    }
+}
