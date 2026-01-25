@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.header .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.search-bar{
+    
+    
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+.search-bar input{
+    padding: 10px 15px;
+    border: 2px solid #007BFF;
+    border-radius: 20px 0 0 20px;
+    width: 100%;
+    font-size: 16px;
+    
+
+}
+
+.search-bar button{
+    padding: 10px 15px;
+    border: 2px solid #007BFF;
+    background-color: #007BFF;
+    border-radius: 0 20px 20px 0;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sidebar{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 200px;
+    height: calc(100% - 60px);
+    color: #fff;
+    padding: 20px;
+    background-color: #333;
+
+}
+.sidebar nav ul{
+    list-style: none;
+}
+.sidebar nav ul li{
+    margin-bottom: 20px;
+}
+.sidebar nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dashboard{
+    margin-left: 200px;
+    padding: 80px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.dashboard .cards{
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cards p{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px){
+    .sidebar{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .dashboard{
+        margin-left: 0;
+        padding: 100px 10px 10px 10px;
+        grid-template-columns: 1fr;
+    }
+}
+
+
