@@ -38,3 +38,5 @@ numbers.shift(); // Removing the first element
 //     console.log("Number:", num);
 // }
 
+
+
