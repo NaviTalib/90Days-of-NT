@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .counter{
+            width: 300px;
+            height: 200px;
+            border: 2px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 10px;
+        }
+        button{
+            padding: 10px 30px;
+            font-size: 24px;
+            background-color: greenyellow;
+            margin: 7px;
+            border-radius: 10px;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="counter">
+        <h1 id="count">0</h1>
+        <div class="btn-box">
+            <button id="inc">+</button>
+        <button id="dec">-</button>
+        </div>
+    </div>
+    
+    <script>
+        let count = 0;
+
+        let display = document.querySelector("#count");
+
+        document.querySelector("#inc").addEventListener("click",()=>{
+            count++;
+            display.innerText = count;
+        });
+        document.querySelector("#dec").addEventListener("click",()=>{
+            count--;
+            display.innerText = count;
+        });
+        
+
+    </script>
+</body>
+</html>
